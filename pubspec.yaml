@@ -1,0 +1,47 @@
+name: movloo
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.19.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter:
+  animated_text_kit:
+  google_fonts:
+  firebase_core:
+  firebase_auth:
+  fluttertoast:
+  auto_size_text:
+  geocoding:
+  cloud_firestore:
+  location:
+  flutter_statusbarcolor_ns:
+  google_maps_flutter_web:
+  firebase_storage:
+  csv:
+  fl_chart: ^0.36.2
+  intl: ^0.17.0
+  flutter_easyloading: ^3.0.5
+  http: "^0.13.3"
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/OIG.jpeg
+    - assets/icon.png
+    - assets/custom_review_db.csv

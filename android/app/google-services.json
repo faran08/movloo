@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "466454876497",
+    "project_id": "moovloo",
+    "storage_bucket": "moovloo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466454876497:android:ee70e378b345d286ba8370",
+        "android_client_info": {
+          "package_name": "com.example.movloo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466454876497-uk916euil902gur9p65o9tqqgfitakuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzfS7CgvCA5a-GnEDwOUIDlXyH4bAk7wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466454876497-uk916euil902gur9p65o9tqqgfitakuq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "466454876497-71v4t3st2dhokuanhlonif1jjedaet62.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.movloo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
