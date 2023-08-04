@@ -7,7 +7,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:http/http.dart' as http;
 
 class CSVGraphPage extends StatefulWidget {
-  CSVGraphPage({super.key, required this.locationName});
+  const CSVGraphPage({super.key, required this.locationName});
 
   final String locationName;
   @override
@@ -43,7 +43,7 @@ class _CSVGraphPageState extends State<CSVGraphPage> {
       final response = await http.get(Uri.parse(downloadURL));
       final csvString = response.body;
 
-      final fields = CsvToListConverter().convert(csvString);
+      final fields = const CsvToListConverter().convert(csvString);
 
       List<FlSpot> newSpots = [];
 
@@ -70,7 +70,7 @@ class _CSVGraphPageState extends State<CSVGraphPage> {
   Future<void> loadAsset() async {
     final csvString = await rootBundle.loadString('custom_review_db.csv');
 
-    final fields = CsvToListConverter().convert(csvString);
+    final fields = const CsvToListConverter().convert(csvString);
 
     List<FlSpot> newSpots = [];
 
@@ -95,7 +95,7 @@ class _CSVGraphPageState extends State<CSVGraphPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('CSV Graph'),
+        title: const Text('CSV Graph'),
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(8, 50, 50, 8),

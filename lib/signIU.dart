@@ -1,7 +1,5 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -9,6 +7,8 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'auxilaryFiles/ErrorDialog.dart';
 
 class SignUI extends StatefulWidget {
+  const SignUI({super.key});
+
   @override
   _SignUIState createState() => _SignUIState();
 }

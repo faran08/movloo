@@ -386,7 +386,6 @@ class _MyHomePageState extends State<MyHomePage> {
         );
       },
     );
-    ;
   }
 
   Future<void> loadAllLocations() async {

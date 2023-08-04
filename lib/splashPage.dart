@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:movloo/MyHomePage.dart';
-import 'package:flutter/foundation.dart' show kIsWeb;
-import 'dart:io' show Platform;
 
-import 'main.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

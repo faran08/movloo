@@ -7,7 +7,7 @@ import 'auxilaryFiles/ErrorDialog.dart';
 class RatingsPage extends StatefulWidget {
   final Map<String, dynamic> data;
 
-  RatingsPage({required this.data});
+  const RatingsPage({super.key, required this.data});
 
   @override
   _RatingsPageState createState() => _RatingsPageState();
